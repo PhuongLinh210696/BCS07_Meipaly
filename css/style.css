@@ -143,11 +143,12 @@ header nav ul li a:hover {
   align-items: center;
   flex-direction: column;
   position: relative;
-}.services .services__content .service__item .service__item__bg i{
+}
+.services .services__content .service__item .service__item__bg i {
   font-size: 40px;
   margin-bottom: 10px;
 }
-.services .services__content .service__item .service__item__bg p{
+.services .services__content .service__item .service__item__bg p {
   text-transform: uppercase;
   text-align: center;
 }
@@ -278,139 +279,138 @@ header nav ul li a:hover {
   transform: translateY(0);
 }
 
-.posts .post__item .overlay__content p,h3{
+.posts .post__item .overlay__content p,
+h3 {
   translate: translateY(20px);
   transition: all 0.8s;
 }
 
-.posts .post__item:hover .overlay__content p,h3{
+.posts .post__item:hover .overlay__content p,
+h3 {
   transform: translateY(0);
 }
 
 /* number */
-.number{
-    padding: 60px 0;
-    background-color: black;
-    color: white;
-}
-.number .number__contain{
-    display: flex;
-    justify-content: space-evenly;
-}
-.number .number__contain .number__item{
-    text-align: center;
-}
-.number .number__contain .number__item h3{
-    font-size: 60px;
-    font-weight: 100;
-}
-
-.number .number__contain .number__item p{
-    color: #888888;
-}
-
-.exp{
-    background-image: url('../img/bussiness_img_1.jpg');
-    padding: 80px 0;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.exp .exp__title{
-    text-align: center;
-}
-.exp .exp__title p{
-    color: #e62b4a;
-}
-.exp .exp__title h2{
-    color: white;
-    font-size: 40px;
-    margin: 30px;
-}
-.exp .exp__title p:last-child{
-    color: #888888;
-    margin-bottom: 30px;
-}
-
-
-/* Contact */
-.contact{
-    padding: 60px 0;
-}
-.contact__title{
-    text-align: center;
-}
-.contact__title h2{
-    text-transform: uppercase;
-    font-size: 40px;
-    padding: 20px 0;
-}
-.contact__title p{
-    color: #888888;
-    margin-bottom: 30px;
-}
-
-.contact .contact__content{
-    display: flex;
-    gap: 20px;
-}
-
-.contact .contact__content .contact__left{
-    width: 60%;
-}
-.contact .contact__content .contact__right{
-    width: 40%;
-}
-
-.contact .contact__content .contact__left iframe{
-    width: 100%;
-}
-.contact .contact__content .contact__right form{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-}
-.contact .contact__content .contact__right form input{
-    padding: 15px;
-    font-size: 18px;
-}
-.contact .contact__content .contact__right form textarea{
-    padding: 15px;
-    font-size: 18px;
-}
-.contact .contact__content .contact__right form button{
-    background-color: black;
-    color: white;
-    padding: 15px;
-    font-size: 18px;
-    cursor: pointer;
-    border: none;
-    transition: all 0.5s;
-}
-.contact .contact__content .contact__right form button:hover{
-    background-color: #e62b4a;
-}
-
-
-/* Footer */
-footer{
+.number {
+  padding: 60px 0;
   background-color: black;
   color: white;
 }
-.footer{
+.number .number__contain {
+  display: flex;
+  justify-content: space-evenly;
+}
+.number .number__contain .number__item {
+  text-align: center;
+}
+.number .number__contain .number__item h3 {
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.number .number__contain .number__item p {
+  color: #888888;
+}
+
+.exp {
+  background-image: url("../img/bussiness_img_1.jpg");
+  padding: 80px 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.exp .exp__title {
+  text-align: center;
+}
+.exp .exp__title p {
+  color: #e62b4a;
+}
+.exp .exp__title h2 {
+  color: white;
+  font-size: 40px;
+  margin: 30px;
+}
+.exp .exp__title p:last-child {
+  color: #888888;
+  margin-bottom: 30px;
+}
+
+/* Contact */
+.contact {
+  padding: 60px 0;
+}
+.contact__title {
+  text-align: center;
+}
+.contact__title h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  padding: 20px 0;
+}
+.contact__title p {
+  color: #888888;
+  margin-bottom: 30px;
+}
+
+.contact .contact__content {
+  display: flex;
+  gap: 20px;
+}
+
+.contact .contact__content .contact__left {
+  width: 60%;
+}
+.contact .contact__content .contact__right {
+  width: 40%;
+}
+
+.contact .contact__content .contact__left iframe {
+  width: 100%;
+}
+.contact .contact__content .contact__right form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.contact .contact__content .contact__right form input {
+  padding: 15px;
+  font-size: 18px;
+}
+.contact .contact__content .contact__right form textarea {
+  padding: 15px;
+  font-size: 18px;
+}
+.contact .contact__content .contact__right form button {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.5s;
+}
+.contact .contact__content .contact__right form button:hover {
+  background-color: #e62b4a;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  color: white;
+}
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 80px 0;
 }
 
-.footer .footer__left ul li{
+.footer .footer__left ul li {
   display: inline;
   padding: 0 20px;
-  
 }
-.footer .footer__left a{
+.footer .footer__left a {
   font-size: 18px;
   background-color: #ffffff33;
   width: 60px;
@@ -422,24 +422,61 @@ footer{
   transition: all 0.5s;
   cursor: pointer;
 }
-.footer .footer__left a:hover{
+.footer .footer__left a:hover {
   background-color: #e62b4a;
 }
-@keyframes arrowGoDown{
-    from{
-        transform: translateY(0);
-        opacity: 1;
-    }
-    to{
-        transform: translateY(50px);
-        opacity: 0;
-    }
+@keyframes arrowGoDown {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(50px);
+    opacity: 0;
+  }
 }
 
-.banner .banner__content i{
-    animation-name: arrowGoDown;
-    animation-duration: 1.5s;
-    /* Lặp lại */
-    animation-iteration-count: infinite;
-    font-size: 25px;
+.banner .banner__content i {
+  animation-name: arrowGoDown;
+  animation-duration: 1.5s;
+  /* Lặp lại */
+  animation-iteration-count: infinite;
+  font-size: 25px;
+}
+
+
+
+.cd-top {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 4px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  color: #fff;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 20px;
+}
+
+.js .cd-top {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s, background-color 0.3s;
+}
+
+.js .cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.js .cd-top--fade-out {
+  opacity: 0.5;
+}
+
+.js .cd-top:hover {
+  background-color: var(--cd-color-3);
+  opacity: 1;
 }
