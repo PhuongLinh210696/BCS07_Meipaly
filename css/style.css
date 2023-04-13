@@ -183,11 +183,13 @@ header nav ul li a:hover {
 
 .posts__title h2 {
   font-size: 40px;
+  margin: 20px;
 }
 
 .posts .posts__title p:last-child {
   color: #888888;
   font-weight: 700;
+  margin-bottom: 40px;
 }
 
 .posts .posts__title .sub__title {
